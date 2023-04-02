@@ -2,6 +2,7 @@ from googleapiclient.discovery import build
 import requests
 import os
 import googleapiclient.discovery
+spacy.cli.download('en_core_web_sm')
 
 api_key = 'AIzaSyDgZDUHl1BoYUExQjjWG2hbOvZQdT6z4Gs'
 
@@ -284,7 +285,7 @@ if st.button('check'):
     # # Stemming
     #import nltk
     # from spacy.load('en_core_web_sm')
-    spacy.cli.download('en_core_web_sm')
+    
     nlp = spacy.load("en_core_web_sm")
 
     def stem_words(text):
