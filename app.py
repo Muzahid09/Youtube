@@ -2,7 +2,6 @@ from googleapiclient.discovery import build
 import requests
 import os
 import googleapiclient.discovery
-from scipy.sparse import csr_array
 spacy.cli.download('en_core_web_sm')
 
 api_key = 'AIzaSyDgZDUHl1BoYUExQjjWG2hbOvZQdT6z4Gs'
