@@ -1,4 +1,5 @@
 scikit-learn
+scipy.sparse
 emoji==2.2.0
 google_api_python_client==2.83.0
 requests==2.28.2
