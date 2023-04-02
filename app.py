@@ -2,6 +2,7 @@ from googleapiclient.discovery import build
 import requests
 import os
 import googleapiclient.discovery
+import spacy
 spacy.cli.download('en_core_web_sm')
 
 api_key = 'AIzaSyDgZDUHl1BoYUExQjjWG2hbOvZQdT6z4Gs'
@@ -260,7 +261,7 @@ if st.button('check'):
 
     # Stops word removal
 
-    import spacy
+    
     from spacy.lang.en.stop_words import STOP_WORDS
 
 
