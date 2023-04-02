@@ -3,3 +3,5 @@ google_api_python_client==2.83.0
 requests==2.28.2
 spacy==3.5.1
 streamlit==1.20.0
+sklearn
+xgboost
